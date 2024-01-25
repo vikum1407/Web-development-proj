@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Facebook</title>
+    <link rel="stylesheet" href="CSS/facebook-post.css">
+    <style>
+        body {
+    height: 1300px; /* Reduced the height for visibility in this example */
+    margin: 0;
+}
+
+.fb-header {
+    display: flex;
+    position: fixed;
+    height: 80px;
+    background-color: rgb(13, 194, 221);
+    width: 100%;
+    top: 0;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.main-clz {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.left-bar {
+    background-color: beige;
+    height: 100%;
+}
+
+.right-bar {
+    background-color: rgb(81, 218, 218);
+    height: 100%;
+}
+
+.middle-bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    padding: 20px;
+    column-gap: 10px;
+}
+
+.posting-clz {
+    position: relative;
+    height: 337px;
+    
+}
+
+.posting-clz1 {
+    background-color: aquamarine;
+    
+}
+
+.posting-clz2 {
+    background-color: rgb(35, 77, 63);
+}
+
+.posting-clz3 {
+    background-color: rgb(109, 57, 94);
+}
+
+.posting-clz4 {
+    background-color: rgb(255, 165, 0);
+}
+.tshirt-clz{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.off-clz{
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    top: 5px;
+    right: 5px;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.addToCart-clz{
+    bottom: 0;
+}
+.addToCart-div{
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+}
+
+    </style>
+</head>
+<body>
+    <div class="fb-header">
+            <button class="signIn-btn">
+                <!--This is exmple for tooltip adding to a button-->
+                <img src="../Images/login-button.svg" class="login-img">
+                <div class="tooltip">Signin</div>
+            </button>
+
+            <button class="bell-btn">
+                <img src="../Images/youtube-bell-button.webp" class="bell-img">
+                <div class="tooltip">Notification Alert for Videos</div>
+            </button>
+    </div>
+    <div class="main-clz">
+        <div class="left-bar">left sidebar</div>
+        <div class="middle-bar">
+            <!-- First Row of Postings -->
+            <div class="posting-clz posting-clz1">
+                <img src="../Images/tshirt.jpg" class="tshirt-clz">
+                <div class="off-clz">
+                    20% OFF
+                </div>
+                <!--div class="addToCart-div">
+                    <button class="addToCart-clz">Add TO Cart</button>
+                </div--->
+            </div>
+            <div class="posting-clz posting-clz2">posting 2</div>
+            <div class="posting-clz posting-clz3">posting 3</div>
+
+            <!-- Second Row of Postings -->
+            <div class="posting-clz posting-clz4">posting 4</div>
+            <div class="posting-clz posting-clz1">posting 5</div>
+            <div class="posting-clz posting-clz2">posting 6</div>
+
+            <!-- Third Row of Postings -->
+            <div class="posting-clz posting-clz3">posting 7</div>
+            <div class="posting-clz posting-clz4">posting 8</div>
+            <div class="posting-clz posting-clz1">posting 9</div>
+        </div>
+        <div class="right-bar">right sidebar</div>
+    </div>
+</body>
+</html>

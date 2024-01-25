@@ -1,0 +1,36 @@
+input{
+    border-color: rgba(49, 50, 50, 0.433);
+    border-style: solid;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 300px;
+    display: block;
+    margin-bottom: 4px;
+}
+button{
+    width: 165px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.request-text{
+    font-weight: bold;
+    margin-left: 100px;
+    margin-bottom: 8px;
+}
+.request-now{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.schedule{
+    background-color: rgb(215, 210, 210);
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}

@@ -1,0 +1,133 @@
+body {
+    height: 1300px; /* Reduced the height for visibility in this example */
+    margin: 0;
+}
+
+.fb-header {
+    display: flex;
+    position: fixed;
+    height: 80px;
+    background-color: rgb(13, 194, 221);
+    width: 100%;
+    top: 0;
+    border-radius: 5px;
+    z-index: 1;
+    align-items: center;
+}
+
+.signIn-btn,
+.bell-btn{
+    height: 45px;
+    width: 66px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+.login-img{
+    height: 40px;
+}
+
+.signIn-btn .tooltip,
+.bell-btn .tooltip{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.signIn-btn:hover .tooltip,
+.bell-btn:hover .tooltip{
+    opacity: 1;
+}
+
+.bell-btn {
+    height: 45px;
+    width: 66px;
+}
+.bell-img{
+    height: 40px;
+}
+.main-clz {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.left-bar {
+    background-color: beige;
+    height: 100%;
+}
+
+.right-bar {
+    background-color: rgb(81, 218, 218);
+    height: 100%;
+}
+
+.middle-bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    padding: 20px;
+    column-gap: 10px;
+}
+
+.posting-clz {
+    position: relative;
+    height: 337px;
+    
+}
+
+.posting-clz1 {
+    background-color: aquamarine;
+    
+}
+
+.posting-clz2 {
+    background-color: rgb(35, 77, 63);
+}
+
+.posting-clz3 {
+    background-color: rgb(109, 57, 94);
+}
+
+.posting-clz4 {
+    background-color: rgb(255, 165, 0);
+}
+.tshirt-clz{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.off-clz{
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    top: 5px;
+    right: 5px;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.addToCart-clz{
+    bottom: 0;
+}
+.addToCart-div{
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+}

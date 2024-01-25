@@ -1,0 +1,200 @@
+<style>
+    .subscribe-button{
+        background-color: rgb(202, 0, 0);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 1s;
+    }
+    .subscribe-button:hover{
+        opacity: 0.7;
+    }
+    .subscribe-button:active{
+        opacity: 0.3;
+    }
+    
+    .join-button{
+        background-color: white;
+        border-color: rgb(41, 118, 211);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(41, 118, 211);
+        height: 36px;
+        width: 65px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: background-color 1s, color 1s;
+    }
+    .join-button:hover{
+        background-color: rgb(41, 118, 211);
+        color: white;
+    }
+    .join-button:active{
+        opacity: 0.5;
+    }
+
+    .tweeter-button{
+        background-color: rgb(2, 158, 255);
+        border-color: rgb(2, 158, 255);
+        border-radius: 20px;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        height: 36px;
+        width: 95px;
+        cursor: pointer;
+        margin-right: 10px;
+        transition: box-shadow 0.15s;
+    }
+    .tweeter-button:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+    .registernow-button {
+        background-color: black;
+        border-color: white;
+        border-width: 5px;
+        border-style: solid;
+        color: white;
+        height: 36px;
+        width: 115px;
+        cursor: pointer;
+        transition: background-color 1s, color 1s;
+    }
+    .registernow-button:hover{
+        background-color: black;
+        opacity: 0.3;
+    }
+    .addtocart-button{
+        background-color: rgb(255, 216, 20);
+        border-color: rgb(255, 216, 20);
+        border-style: solid;
+        border-radius: 15px;
+        height: 36px;
+        width: 120px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: background-color 0.15s, color 0.15s;
+    }
+    .addtocart-button:hover{
+        background-color:  rgb(220, 160, 11);
+        border-color: rgb(220, 160, 11);
+    }
+    .get-started-button{
+        background-color: rgb(121, 82, 179);
+        border-color: rgb(121, 82, 179);
+        border-style: solid;
+        border-radius: 2px;
+        color: white;
+        font-weight: bold;
+        height: 36px;
+        width: 105px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .sign-up-button{
+        background-color: green;
+        border-color: green;
+        border-radius: 5px;
+        border-style: solid;
+        height: 36px;
+        width: 105px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: box-shadow 0.15s;
+    }
+    .sign-up-button:hover{
+        box-shadow: 10px, 10px, 10px rgba(0, 0, 0, 0.15);
+    }
+    .save-button{
+        background-color: white;
+        border-color: rgb(46, 75, 159);
+        border-radius: 20px;
+        border-style: solid;
+        height: 36px;
+        width: 85px;
+        color: rgb(46, 75, 159);
+        font-weight: bold;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: background-color 1s, color 1s, opacity 1s;
+    }
+    .save-button:hover{
+        background-color: rgb(12, 97, 183);
+        border-color: rgb(12, 97, 184);
+        color: white;
+        font-weight: bold;
+    }
+    .save-button:active{
+        opacity: 0.5;
+    }
+    .linkdin-button{
+        background-color: rgb(10, 102, 194);
+        border-color: rgb(10, 102, 194);
+        border-style: solid;
+        color: white;
+        border-radius: 15px;
+        height: 36px;
+        width: 200px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-right: 8px;
+    }
+    #nike-class{
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #stock-text{
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        color: green;
+    }
+    .stretch-button{
+        background-color: green;
+        border-color: green;
+        border-style: solid;
+        padding-top: 8px;
+        font-weight: bold;
+        color: white;
+        font-size: 18px;
+        padding-bottom: 8px;
+        padding-left: 14px;
+        padding-right: 14px;
+        cursor: pointer;
+    }
+    .stretch-button:hover{
+        background-color: green;
+        border-color: green;
+        border-style: solid;
+        padding-top: 8px;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        padding-bottom: 14px;
+        padding-left: 14px;
+        padding-right: 20px;
+        transition: transform .2s, background-color 1s, color 1s;
+    }
+</style>
+<button class="subscribe-button">SUBSCRIBE</button>
+<button class="join-button">JOIN</button>
+<button class="tweeter-button">Tweeter</button>
+<button class="registernow-button">Register Now</button>
+<button class="addtocart-button">Add to Cart</button>
+<button class="sign-up-button">Sign Up</button>
+<button class="get-started-button">Get Started</button>
+<button class="save-button">SAVE</button>
+<button class="linkdin-button">Apply on company website</button>
+<br>
+<p id="nike-class">Nike Black Running Shoes</p>
+<p id="stock-text">$39 - in stock</p>
+<button class="stretch-button">Stretch</button>

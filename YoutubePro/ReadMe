@@ -1,0 +1,68 @@
+Leaning Content:-
+
+    01. Load images on the html page
+        <Details:->
+            * '<img>' tag is a void element( it meant no need the closing tag. like link tag)
+            * If we are changing the width of the img, height also change automatically.
+            * 'object-fit' is a dedicated css feature for image
+            * 'object-position' is a dedicated css feature for image position on the web site
+
+    02. Create 'Search bar'
+        <Details>
+            * '<input>' tag is also a voide element like '<img>'
+            * '<input>' tag having several types like 
+                    - type = 'text'
+                    - type = 'checkbox'
+            * If the textbox or search bar, there having some text until you written something. It's called as placeholder.
+
+    03. HTML element types
+        <Details>
+            There are three type of elements
+                1. Block type element
+                2. Inline-block element
+                3. Inline element
+        </Details:->
+
+    04. If you need to aggest lines space
+        <Details>
+            line-height: 12px;
+        </Details>
+
+    05. Horizontal and Veritical words alinment, we can use
+        - display: flex;
+          justify-content:center; -> this is for horizontal alientment
+          align-item:center; -> this is for verifical center
+
+    06. If you need to align text below to image    
+        - display: flex;
+          flex-direction: column;
+
+    07. If you need to align text parallel with a image
+        - display: flex;
+          flex-direction: row;
+
+    08. If you need to add a tool tip
+        - opacity: 0; -> invisible mode
+        then create second class on css file and make this 0 to 1 in it
+        - opacity: 1;
+        if you need to add more smooth transition on it. you can add
+        - transition: opacity 0.15s;
+
+Video Content:- https://www.youtube.com/watch?v=G3e-cpL7ofc&t=7864s
+
+    2:11:08 (lesson 1 to 6)
+    3:43:46 (lesson 7 to 11)
+    4:15:12 (lesson 12)  -> Grid
+    4:45:11 (lesson 13) -> Flex
+            (lesson 13) -> CSS positioning
+    End (lesson 15 to 17)
+
+    CSS Positioning:
+
+    * top: 10px; bottom:100px; => through this create a rectagle with flex.
+    * left:50px; right:50px   => same as above
+
+** Best practise is creating main things in a different css file
+    eg:- page header
+         sidebar
+         content

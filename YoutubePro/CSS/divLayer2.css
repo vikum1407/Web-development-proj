@@ -1,0 +1,35 @@
+.main{
+    width: 700px;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.first-content{
+    width: 550px;
+    height: 150px;
+}
+.img-content{
+    display: inline-block;
+}
+.img{
+    width: 250px;    
+}
+.info{
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+}
+.video-title{
+    margin-bottom: 15px;
+}
+.channel-name{
+    margin-bottom: 15px;
+}
+.description{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.states{
+    display: inline-block;
+}

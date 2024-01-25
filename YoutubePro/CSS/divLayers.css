@@ -1,0 +1,62 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+button{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.main-div{
+    width: 350px;
+    height: 80px;
+    display: block;
+    margin-bottom: 15px;
+}
+.button-div{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.cat-img{
+    display: inline-block;
+    vertical-align: top;
+}
+.cat{
+    width: 100px;
+    display: inline-block;
+    border-radius: 100px;
+}
+.name{
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+}
+.info{
+    display: inline-block;
+    width: 200px;
+}
+.name-tag{
+    display: inline-block;
+}
+.category-class{
+    display: block;
+}
+.famous{
+    display: block;
+    margin-bottom: 10px;
+}
+.thecat{
+    display: inline-block;
+}
+.follow-clz{
+    display: inline-block;
+    margin-left: 45px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: rgb(59, 103, 246);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}

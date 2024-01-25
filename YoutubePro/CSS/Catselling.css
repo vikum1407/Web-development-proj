@@ -1,0 +1,78 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial;
+}
+.first-cat{
+    display: inline-block;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.second-cat{
+    display: inline-block;
+    margin-left: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    vertical-align: top;
+    border-radius: 5px;
+}
+.third-cat{
+    display: inline-block;
+    margin-left: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    vertical-align: top;
+    border-radius: 5px;
+}
+.fourth-cat{
+    display: inline-block;
+    margin-left: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    vertical-align: top;
+    border-radius: 5px;
+}
+.image-content{
+    display: inline-block;
+    width: 170px;
+    height: 250px;
+}
+.image{
+    width: 170px;
+    height: 120px;
+}
+.name{
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.mutuals-img{
+    width: 30px;
+    border-radius: 50px;
+    display: inline-block;
+}
+.mutuals{
+    display: inline-block;
+    vertical-align: top;
+    vertical-align: top;
+    margin-top: 8px;
+    color: rgb(154, 149, 149);
+}
+.cat-mutuals{
+    padding-top: 10px;
+    display: inline-block;
+    margin-left: 2px;
+}
+.cat-name{
+    padding-top: 10px;
+}
+.add-button{
+    margin-top: 10px;
+    margin-left: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: rgb(66, 106, 200);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,208 @@
+.video-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+body{
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 24px;
+    background-color: rgb(235, 233, 233);
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+.main-div{
+    background-color: rgb(180, 202, 180);
+}
+.header-cls{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(198, 196, 196);
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.middel-section{
+    flex: 1 ;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 70px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(198, 196, 196);
+    z-index: 300;
+    padding-top: 5px;
+}
+.sidebar-link{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sidebar-link:hover {
+    background-color: rgb(218, 214, 214);
+}
+.sidebar-link img {
+    height: 35px;
+    margin-bottom: 4px;
+}
+.sidebar-link div{
+    font-family: Arial;
+    font-size: 10px;
+
+}
+
+.search-bar{
+    flex: 1;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 12px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0px;
+}
+.right-section{
+    width: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+.derana-championstar{
+    width: 100%;
+}
+.travel-europe{
+    width: 100%;
+}
+.derana-news{
+    width: 100%;
+}
+.sirasa-news{
+    width: 100%;
+}
+.badas{
+    width: 100%;
+}
+.supersimpledev{
+    width: 100%;
+}
+.hiru-news{
+    width: 100%;
+}
+.cricket-sl{
+    width: 100%;
+}
+.vimg-class{
+    width: 100%;
+    border-radius: 20px;
+}
+.derana-icon{
+    width: 40px;
+    margin-top: 4px;
+}
+.travel-icon{
+    width: 40px;
+    border-radius: 50px;
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.video-info{
+    width: 250px;
+}
+.video-title{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.channel-icon{
+    vertical-align: top;
+}
+.video-author{
+    font-size: 16px;
+}
+.video-states{
+    font-size: 14px;
+}
+.video-author,
+.video-states{
+    color: rgb(96, 96, 96);
+}
+.ymenu{
+    height: 30px;
+    margin-left: 12px;
+}
+.ylogo{
+    height: 30px;
+    margin-left: 14px;
+}
+.search-icon-button {
+    height: 40px;
+    width: 30px;
+    background-color: rgb(240, 240, 240);
+    margin-left: -1px;
+    margin-right: 10px;
+    position: relative;
+}
+.search-icon-button .tool-tip {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    opacity: 0;
+}
+.search-icon-button:hover .tool-tip {
+    opacity: 1;
+}
+.search-icon-button{
+    height: 30px;
+    width: 30px;
+    margin-left: -1px;
+}
+.mic-icon-button{
+    height: 30px;
+    width: 40px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.youtube-video{
+    width: 30px;
+}
+.vido-bell{
+    width: 35px;
+}
+.video-profile{
+    width: 50px;
+}   

@@ -1,0 +1,94 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+.main-div{
+    background-color: rgb(180, 202, 180);
+}
+.derana-championstar{
+    width: 330px;
+    vertical-align: top;
+    display: inline-block;
+}
+.travel-europe{
+    width: 330px;
+    display: inline-block;
+    margin-left: 8px;
+}
+.derana-news{
+    width: 330px;
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: top;
+}
+.sirasa-news{
+    width: 330px;
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: top;
+}
+.badas{
+    width: 330px;
+    display: inline-block;
+    margin-left: 8px;
+}
+.supersimpledev{
+    width: 330px;
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: top;
+}
+.hiru-news{
+    width: 330px;
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: top;
+}
+.cricket-sl{
+    width: 330px;
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: top;
+}
+.vimg-class{
+    width: 330px;
+    border-radius: 20px;
+}
+.derana-icon{
+    width: 40px;
+    margin-top: 4px;
+    display: inline-block;
+}
+.travel-icon{
+    width: 40px;
+    margin-top: 4px;
+    display: inline-block;
+    border-radius: 50px;
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.video-info{
+    width: 250px;
+    display: inline-block;
+}
+.video-title{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.channel-icon{
+    display: inline-block;
+    vertical-align: top;
+}
+.video-author{
+    font-size: 16px;
+}
+.video-states{
+    font-size: 14px;
+}
+.video-author,
+.video-states{
+    color: rgb(96, 96, 96);
+}

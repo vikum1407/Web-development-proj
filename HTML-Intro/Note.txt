@@ -1,0 +1,46 @@
+<a href="https://www.youtube.com" > here is <a> is a tag, href is a attribute and 'https://www.youtube.com' is a attribute value.
+<target="_blank"> mean the link is open from another tab
+
+CSS -
+<style>
+    button{
+        background-color: red;
+        color: white;
+    }
+</style>
+
+** If I need to add some space in between the button, we can use 'margin-right/left: 8px;
+
+** Hover, Transitions, Shadows:
+        - Hover -> .button-class: hover;
+    * opacity - 
+        if you wont to blur the button when hover it, you can use 'opacity' function
+
+        - Transitions -> transition: opacity 1s;
+    * if you wont to transfer color state to blur state smoothly
+        - Transitions -> transition: background-color 1s;
+    * If you wont to transfer background color to another color smoothly
+        - Transitions -> transition: background-color 1s, color 1s;
+    * If you wont to transfer background color and the font color smoothly
+
+        - Shadows -> box-shadow: 0 0 0 black; [horizontal, vertical, blur]
+
+** rgb and rgba
+    - rgba mean red, green, blue with opacity(blur) with color format.
+
+** HEX is also a color code
+    eg:- #1d9bf0 [first 2=red, second 2=green, third 2=blue]
+    to convert hex value to rgb value, you can use convertion calculator for that
+
+** in the <p> paragraphs there is a default margin in between the text.
+** If you have use same font-family through out the page for all of paragraphs, you can use as follows to improve 
+   code reusability.
+   <style>
+        p {
+            font-family: Arial
+        }
+   </style>
+   then you can remove 'font-family' property from other css code
+
+** If you need to get the special characters to the web page, please search 'html entity -characters you wont- '
+** If you need to underline a text, you can use 'text-decoration: underline;'

@@ -1,0 +1,23 @@
+.thumbnail{
+    width: 400px;
+    display: block;
+}
+.search-bar{
+    font-size: 20px;
+    margin-left: 12px;
+    border-radius: 10px;
+    display: block;
+}
+.video-des{
+    width: 400px;
+}
+.thumbnail1{
+    width: 400px;
+    display: inline-block;
+}
+.thumbnail2{
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4px;
+}

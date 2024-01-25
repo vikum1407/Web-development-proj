@@ -1,0 +1,9 @@
+.div1-class{
+    height: 180px;
+    width: 320px;
+    background-color: gray;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    color: gray;
+}

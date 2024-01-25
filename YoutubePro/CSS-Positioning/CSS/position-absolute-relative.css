@@ -1,0 +1,75 @@
+body{
+    height: 3000px;
+}
+.header{
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    color: white;
+    z-index: 100;
+}
+.sidebar{
+    position: fixed;
+    background-color: lightgreen;
+    left: 0;
+    top: 70px;
+    width: 100px;
+    height: 800px;
+}
+.div1-class{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: lightgrey;
+    margin-top: 100px;
+    margin-left: 120px;
+    position: relative;
+}
+.div2-class{
+    display: flex;
+    position: static;
+    width: 200px;
+    height: 200px;
+    background-color: lightpink;
+    margin-left: 120px;
+}
+.pose-absolute{
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width: 15px;
+    top: 0;
+    right: 0;
+}
+.abso-posi{
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width: 15px;
+    top: 0;
+    right: 0;
+    height: 17px;
+}
+.put-time-posi{
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width:30px;
+    bottom: 0;
+    right: 0;
+    height: 20px;
+}
+.abso-class{
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    top: 120px;
+    right: 50px;
+}

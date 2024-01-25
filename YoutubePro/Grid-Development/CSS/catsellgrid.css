@@ -1,0 +1,83 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial;
+}
+.cats-class{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.ft-cat{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.sec-cat{
+    width: 100%;
+    background-color: lightblue;
+}
+.thir-cat{
+    width: 100%;
+    background-color: lightblue;
+}
+.fourth-cat{
+    width: 100%;
+    background-color: lightblue;
+}
+.fiv-cat{
+    width: 100%;
+    background-color: lightblue;
+}
+.six-cat{
+    width: 100%;
+    background-color: lightblue;
+}
+.mimi-clz{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.cat-image{
+   width: 100%;
+}
+.profile-cat{
+    width: 50px;
+    display: inline-block;
+    border: none;
+    border-radius: 50px;
+}
+.mutual{
+    display: inline-block;
+    color: rgb(154, 149, 149);
+    font-size: 14px;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.cat-name{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.cat-button{
+    font-size: 16px;
+    background-color: rgb(30, 110, 231);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
