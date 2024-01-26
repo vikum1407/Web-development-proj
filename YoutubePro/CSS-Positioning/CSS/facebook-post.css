@@ -59,6 +59,54 @@ body {
 .bell-img{
     height: 40px;
 }
+
+.cat-button-clz{
+    height: 45px;
+    width: 66px;
+    position: relative;
+    display: grid;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-style: none;
+    border-radius: 5px;
+    row-gap: 10px;
+    margin-left: 5px;
+}
+.catu-img-clz{
+    width: 66px;
+}
+.tooltip-des{
+    margin-left: 0;
+    padding-left: 0;
+}
+.big-tooltip{
+    display: flex;
+    width: 200px;
+    background-color: gray;
+    column-gap: 20px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+    padding-left: 0;
+    margin-left: 0;
+    
+}
+.cat-button-clz:hover .big-tooltip{
+    opacity: 1;
+}
+.catu-img-logo{
+    width: 40px;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+.vlog-clz,
+.vlog-viwers{
+    margin-left: 0;
+    padding-left: 0;
+}
 .main-clz {
     display: grid;
     grid-template-columns: 200px 1fr 200px;

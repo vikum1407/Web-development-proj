@@ -48,20 +48,79 @@ Leaning Content:-
         if you need to add more smooth transition on it. you can add
         - transition: opacity 0.15s;
 
-Video Content:- https://www.youtube.com/watch?v=G3e-cpL7ofc&t=7864s
-
-    2:11:08 (lesson 1 to 6)
-    3:43:46 (lesson 7 to 11)
-    4:15:12 (lesson 12)  -> Grid
-    4:45:11 (lesson 13) -> Flex
-            (lesson 13) -> CSS positioning
-    End (lesson 15 to 17)
-
     CSS Positioning:
 
     * top: 10px; bottom:100px; => through this create a rectagle with flex.
     * left:50px; right:50px   => same as above
 
+    CSS Reponsive Design:
+        - Use @media tag for the responsive design. through that able to arrange 2, 3, 4 and more content
+          on the screen
+    
+    CSS Padding: 
+        - If there are left, right, bottom and top padding with same size(like 4px), you can use
+        ```
+        padding: 4px;
+        ```
+
+        - If you need to define main two sizes in a same row
+        ```
+        padding: <vertical -  top/bottom> <horizontal - left/right>
+        ```
+
+        - If you need to define main four sizes in a same row
+        ```
+        padding: <top> <right> <bottom> <left>
+        ```
+
+    CSS Margin:
+        - If there are left, right, bottom and top margin with same size(like 4px), you can use
+        ```
+        margin: 4px;
+        ```
+
+        - If you need to define main two sizes in a same row
+        ```
+        margin: <vertical -  top/bottom> <horizontal - left/right>
+        ```
+
+        - If you need to define main four sizes in a same row
+        ```
+        margin: <top> <right> <bottom> <left>
+        ```
+
+    CSS border:
+        - border-width: 1px;
+          border-style: solid;
+          border-color: rgb(192, 192, 192); we can write this as follows for short hand
+
+          ```
+           border: 1px sold rgb(192, 192, 192);
+          ```
+
+    Inheritance :-
+        This is mostly work with the text properties and if this is define in a parent div, it'll effected to the below child div
+
+        ```
+        text-decoration: underline;
+        ```
+
+    CSS Specificity:
+    ```
+        body {
+            color: black;
+        }
+
+        .video-content{
+            color: gray; 
+        }
+    ```
+        This is called css specificity, because body defined font color override by video-content class
+
+    Semengic Element of html:-
+        <header>, <nav>, <main>, <section>
+        this all work as div but it have meaning to the screen readers
+        
 ** Best practise is creating main things in a different css file
     eg:- page header
          sidebar

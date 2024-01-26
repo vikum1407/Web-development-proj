@@ -5,7 +5,28 @@
     column-gap: 20px;
     row-gap: 30px;
 }
+
+/* Add responsive design */
+@media (max-width: 750px) {
+    .video-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .video-content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .video-content {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 body{
+    font-family: Arial;
     margin: 0;
     padding-top: 80px;
     padding-left: 80px;
@@ -73,7 +94,6 @@ p{
     margin-bottom: 4px;
 }
 .sidebar-link div{
-    font-family: Arial;
     font-size: 10px;
 
 }
